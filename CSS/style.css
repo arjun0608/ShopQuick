@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.SearchPage {
+  height: 100svh;
+  width: 100%;
+  background-image: url("Images/logo.jpg");
+}
+
+.header {
+  height: 14svh;
+  /* background-color: bisque; */
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  margin-left: 0.5em;
+}
+
+.header .logo h3 {
+  font-size: 2.3rem;
+  font-family: var(--font1);
+  margin-top: 0em;
+  position: relative;
+}
+
+.header .logo span {
+  font-size: 1.3rem;
+  font-family: var(--font2);
+  position: absolute;
+  left: 1rem;
+  top: 4.1em;
+}
+
+.content {
+  height: 86svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: cadetblue; */
+}
+
+.content .content-items {
+  max-width: 50vw;
+  margin: auto;
+}
