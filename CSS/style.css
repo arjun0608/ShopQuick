@@ -8,6 +8,7 @@
   /* background-color: bisque; */
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header .logo {
@@ -28,7 +29,7 @@
   font-family: var(--font2);
   position: absolute;
   left: 0.9rem;
-  top: 3.4em;
+  top: 9vh;
   /* color: white; */
   color: mediumorchid;
 }
@@ -49,6 +50,7 @@
   color: white;
   margin-left: 20em;
   margin-top: 10em;
+  z-index: 2;
 }
 
 .content-items h3 {
@@ -71,6 +73,7 @@
   font-size: 1em;
   color: black;
   padding: 10px;
+  /* z-index: 2; */
 }
 
 .content-items button {
@@ -82,7 +85,8 @@
   padding: 0.5em;
   border-radius: 60%;
   top: 68%;
-  background-color: rgba(255, 255, 255, 0.522);
+  right: -5em;
+  background-color: rgba(255, 255, 255, 0.671);
 }
 
 .content-items i {
@@ -92,10 +96,35 @@
 
 .box {
   content: "";
-  height: 2.4em;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.522);
+  height: 2.7em;
+  width: 103%;
+  background-color: rgba(255, 255, 255, 0.671);
   position: absolute;
-  top: 7.3em;
+  top: 7.1em;
+  left: -0.5em;
   border-radius: 10px;
+  z-index: -1;
+}
+
+.nav-items button {
+  font-size: 1.5em;
+  color: white;
+  margin-right: 1em;
+  background-color: transparent;
+}
+
+.footer {
+  position: absolute;
+  max-width: 90vw;
+  margin: auto;
+  bottom: 0.5em;
+  font-size: 1em;
+  color: white;
+  font-family: var(--font6);
+}
+
+.dropdown-menu li a:hover {
+  background-color: mediumorchid;
+  color: white;
+  transition: 0.2s ease-in-out;
 }
