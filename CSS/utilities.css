@@ -3,7 +3,25 @@
 /* Teko */
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
 
+/* Playwrite Australia NSW */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap");
+
+/* Dancing Script */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+/* Satisfy */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
 :root {
   --font1: "Playwrite NZ", cursive;
   --font2: "Teko", sans-serif;
+  --font3: "Playwrite AU NSW", cursive;
+  --font4: "Dancing Script", cursive;
+  --font5: "Satisfy", cursive;
+  --font6: "Oswald", sans-serif;
+  --font7: "Ubuntu", sans-serif;
 }
